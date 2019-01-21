@@ -1,0 +1,109 @@
+.content__contact {
+	width: 100%;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+}
+.content_inner__contact {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.content_Src__contact, .content_submit__contact {
+	width: 100%;
+	padding: 0 20%;
+	box-sizing: border-box;
+}
+.content_submit__contact {
+	width: 100%;
+}
+.content_title__contact {
+	width: 100%;
+	font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+    text-transform: none;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    color: rgba(213,11,139,.96);
+    font-family: 'Playfair Display', serif;
+}
+.content_subtitle__contact {
+	font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .02em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #000;
+}
+.content_name__contact {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content_name__contact p {
+	width: 100%;
+}
+.content_name__contact p:nth-child(1) {
+	width: 100%;
+	padding-top: 20px;
+}
+.content_name__contact div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content_name__contact div input:nth-child(1), .content_name__contact div input:nth-child(2) {
+	width: 49%;
+}
+.content_name__contact p {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.content_eAdr__contact p, .content_sub__contact p, .content_mas__contact p {
+	font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    padding: 15px 0;
+    letter-spacing: .02em;
+    text-transform: none;
+    color: #000;
+}
+.content_name__contact p span:nth-child(1), .content_name__contact p span:nth-child(2) {
+	width: 49%;
+	font-size: 12px;
+	padding: 5px 5px;
+	box-sizing: border-box;
+}
+.content_submit__contact button {
+	margin-top: 30px;
+	font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+	border-radius: 300px;
+	padding: 1em 2.5em;
+}
+@media screen and (max-width: 321px) {
+	.content_title__contact {
+		font-size: 30px;
+	}
+	.content_subtitle__contact {
+		font-size: 15px;
+	}
+	.content_Src__contact, .content_submit__contact {
+		padding: 0 0;
+	}
+	.content_Src__contact {
+		text-align: center;
+	}
+	.content__contact {
+		padding-bottom: 80px;
+	}
+}

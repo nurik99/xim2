@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project</title>
+	<link rel="stylesheet" href="build/css/main.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<!-- Language -->
+		<input type="radio" checked name="dva" id="kzButton"/>
+		<input type="radio" name="dva" id="ruButton"/>
+		<input type="radio" name="dva" id="enButton"/>
+		
+
+		<!-- Preloader -->
+		<section class="preloader" id="preloader">
+			<div class="loader">
+				<div class="cssload-thecube">
+					<div class="cssload-cube cssload-c1"></div>
+					<div class="cssload-cube cssload-c2"></div>
+					<div class="cssload-cube cssload-c4"></div>
+					<div class="cssload-cube cssload-c3"></div>
+				</div>
+				<div class="val">
+					<div class="kz">
+						<div class="c c1">Ж</div>
+						<div class="c c2">Ү</div>
+						<div class="c c3">К</div>
+						<div class="c c4">Т</div>
+						<div class="c c5">Е</div>
+						<div class="c c6">Л</div>
+						<div class="c c7">У</div>
+						<div class="c c8">Д</div>
+						<div class="c c9">Е</div>
+						<div class="c c10">.</div>
+					</div>
+					<div class="ru">
+						<div class="c c1">З</div>
+						<div class="c c2">А</div>
+						<div class="c c3">Г</div>
+						<div class="c c4">Р</div>
+						<div class="c c5">У</div>
+						<div class="c c6">З</div>
+						<div class="c c7">К</div>
+						<div class="c c8">А</div>
+						<div class="c c9">.</div>
+						<div class="c c10">.</div>
+					</div>
+					<div class="en">
+						<div class="c c1">L</div>
+						<div class="c c2">O</div>
+						<div class="c c3">A</div>
+						<div class="c c4">D</div>
+						<div class="c c5">I</div>
+						<div class="c c6">N</div>
+						<div class="c c7">G</div>
+						<div class="c c8">.</div>
+						<div class="c c9">.</div>
+						<div class="c c10">.</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<!-- Mobile Menu -->
+		<section class="aside" id = 'aside'>
+			<div class = "aside-inner">
+				<ul class="mobile_part" id="mobile_part">
+					<li>
+						<div class="kz">
+							ӨМІРБАЯНЫ
+						</div>
+						<div class="ru">
+							БИОГРАФИЯ
+						</div>
+						<div class="en">
+							Bio
+						</div>
+					</li>
+					<li>Services</li>
+					<li onclick="mobileMenuShow()">Portfolio >></li>
+					<li>Press</li>
+					<li>Байланысу</li>
+					<li>
+						<label for="kzButton" onclick="kzBut();">KZ|</label>
+						<label for="ruButton" onclick="ruBut();">RU|</label>
+						<label for="ruButton" onclick="enBut();">EN</label>
+					</li>
+				</ul>
+				<ul class="mobile_partLink" id="mobile_partLink">
+					<li onclick="mobileMenuHide()"><< Back</li>
+					<li>Writing Samples</li>
+					<li>Pr Work</li>
+					<li>Testimonials</li>
+				</ul>
+			</div>
+			<img src="img/close.svg" alt="close" class="closeMenu" onclick="hideAside();">
+		</section>
+
+		<section class="bgImage">
+			<!-- header -->
+			<section class="header">
+				<div class="header_logo">
+					<div class="kz">
+						Ж.Ә.Махамбетов
+					</div>
+					<div class="ru">
+						Ж.A.Махамбетов
+					</div>
+					<div class="en">
+						Zh.A.Makhambetov
+					</div>
+					<!-- Header Menu -->
+					<div class="header_menu">
+						<ul>
+							<li>
+								<div class="kz">
+									ӨМІРБАЯНЫ
+								</div>
+								<div class="ru">
+									БИОГРАФИЯ
+								</div>
+								<div class="en">
+									BIOGRAPHY
+								</div>
+							</li>
+							<li class="header_part">
+								PORTFOLIO
+								<ul class="header_partLink">
+									<li>WRITING SAMPLES</li>
+									<li>PR WORK</li>
+									<li>TESTIMONIALS</li>
+								</ul>
+							</li>
+							<li>
+								<a href="file:///C:/Users/Lenovo/Desktop/mag/press/index.html">АРХИВ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="header_language">
+					<label for="kzButton" onclick="kzBut();">KZ        |</label>
+					<label for="ruButton" onclick="ruBut();">RU        |</label>
+					<label for="ruButton" onclick="enBut();">EN</label>
+				</div>
+				<div class="header_link">
+					<div class="header_contact">
+						<div class="kz">Байланысу</div>
+						<div class="ru">Кантакт</div>
+						<div class="en">Contact</div>
+					</div>
+					<div class="header_socIcon">
+						<img title="twitter" class="header_socIcon__twitter" src="img/twitter_black.svg" alt="twitter">
+						<img title="instagram" class="header_socIcon__instagram" src="img/instagram_black.svg" alt="instagram">
+						<img title="youtube" class="header_socIcon__youtube" src="img/youtube_black.svg" alt="youtube">
+					</div>
+				</div>
+				<img onclick = 'showAside()' class="mobileMenu" src="img/menu.svg" width="40px" height="40px">
+			</section>
+
+			<!-- backgraund Source -->
+			<section class="bgSrc">
+				<div class="bgSrc_title">
+					<div class="kz">Жұмат Әмзеұлы Махамбетов</div>
+					<div class="ru">Жумат Амзеевич Махамбетов</div>
+					<div class="en">Zhumat Amzeyevich Makhambetov</div>
+				</div>
+				<div class="bgSrc_subtitle1">
+					<div class="kz">Қазақстанның еңбек сіңірген әртісі</div>
+					<div class="ru">Заслуженный артист Казахстана</div>
+					<div class="en">Honored Artist of Kazakhstan</div>
+				</div>
+				<div class="bgSrc_subtitle2">
+					<div class="kz">ұлағатты ұстаз, тамаша әнші</div>
+					<div class="ru">отличный учитель, замечательный певец</div>
+					<div class="en">great teacher wonderful singer</div>
+				</div>
+			</section>
+			<div class="bgArrow" id="down-arrow">
+				<img src="img/down-arrow.svg" alt="down-arrow" onclick="Scroll('short', 0)">
+			</div>
+		</section>
+		<!-- Mobile Menu Backdrop -->
+		<div onclick = 'hideAside()' class = 'aside-backdrop' id = 'aside-backdrop'></div>
+
+		<!-- First Content Section -->
+		<section class="content1">
+			<div class="short" id="short">
+				<div class="short_inner">
+					<div class="short_img">
+						<img src="img/ximena.jpg" alt="ximena">
+					</div>
+					<div class="short_src">
+						<div class="short_title">
+							<div class="kz">Қысқаша өмірбаяны</div>
+							<div class="ru">Краткая биография</div>
+							<div class="en">Short Biography</div>
+						</div>
+						<div class="short_subtitle">
+							<div class="short_subtitle1">
+								<div class="kz">
+									Жұмат Әмзеұлы Махамбетов 1945 жылы 18 мамырда дүниеге келген. Әнші (баритон). ҚР-ның еңбек сіңірген артисі (1992). Құрманғазы атындағы Қазақтың мемлекеттік консерваториясын (1972; ҚР халық артисі Мұрат Мұсабаевтың класы бойынша) бітірді. Жамбыл атындағы мемлекеттік филармониясының солисі болды. Т. Жүргенов атындағы Театр және кино институты эстрада әншілері кафедрасының доценті.
+								</div>
+								<div class="ru">
+									Жумат Амзеевич Махамбетов родился 18 мая 1945 года. Певец (баритон). Заслуженный артист Республики Казахстан (1992). Окончил Казахскую государственную консерваторию имени Курмангазы (1972, класс народного артиста Республики Казахстан Мурата Мусабаева). Был солистом в Жамбылской государственной филармонии. Т. Доцент кафедры эстрадных исполнителей в Институте театра и кино им. Жургенова.
+								</div>
+								<div class="en">
+									Zhumat Amzeevich Makhambetov was born on May 18, 1945. Singer (baritone). Honored Artist of the Republic of Kazakhstan (1992). He graduated from the Kazakh State Conservatory named after Kurmangazy (1972, class of People’s Artist of the Republic of Kazakhstan Murat Musabayev). He was a soloist in the Zhambyl State Philharmonic. T. Associate Professor of Pop Performers at the Institute of Theater and Cinema. Zhurgenov.
+								</div>
+							</div>
+							<div class="short_subtitle2">
+								<div class="kz">
+									Қазақ композиторларының лирикалық, патриоттық әндерін нақышына келтіріп, ерекше сезіммен, жүрекке жылы тиетін қоңыр дауыспен орындайды. Репертуарында еуропа және орыс композиторларының классикалық туындылары, романстар (Туноның «Фауст» операсынан Валентиннің каватинасы, Моцарттың «Дон-Жуан» операсынан Дон-Жуан ариясы, Вердидің «Травиата» операсынан Жермонның ариясы, Чайковскийдің «Евгений Онегин» операсынан Онегиннің ариясы т. б.) орын алған.
+								</div>
+								<div class="ru">
+									Лирические и патриотические песни казахских композиторов, с особым чувством, с теплым коричневым голосом. Его репертуар включает в себя классические произведения европейских и русских композиторов, романсы (Валентайн «Каваатун» из оперы «Фауст» в Туноне, «Дон Жуан» из оперы «Дон Жуан», Ария Жермона из оперы «Травиата» Верди, «Ария Онегина» из оперы Чайковского «Евгений Онегин»). имели место).
+								</div>
+								<div class="en">
+									Lyrical and patriotic songs of Kazakh composers, with a special feeling, with a warm brown voice. His repertoire includes classical works by European and Russian composers, romances (Valentine's Kavaatun from the opera Faust in Thunon, Don Juan from the opera Don Juan, Aria Germona from the opera La Traviata by Verdi, Aria Onegin) from Tchaikovsky's opera "Eugene Onegin"). took place).
+								</div>
+
+							</div>
+						<!-- <div class="short_subtitle3">
+							When not tackling client projects, I write about things I find interesting. I’ve contributed to <a href="#" class="link">VICE</a>, <a href="#" class="link">Munchies</a>, <a href="#" class="link">Bitch</a>, <a href="#" class="link">Atlas Obscura</a>, <a href="#" class="link">The Independent</a>, <a href="#" class="link">Forbes</a>, <a href="#" class="link">Business Insider</a>, <a href="#" class="link">Tasting Table</a>, <a href="#" class="link">Refinery29</a> and more. All of <a href="#" class="link">my writing samples</a> are available here.
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Second Content Section -->
+	<section class="content2">
+		<div class="content2_inner">
+			<div class="content2_wrap">
+				<div class="content2_PrBg">
+					<div class="content2_title">PR Background</div>
+					<div class="content2_subtitle">
+						<div class="content2_subtitle1">
+							I'm the founder of C1 Revolution. Clients hire me because of my expertise in brand reputation and management (you can get a better sense of what that means over at the services page). Brand work includes Portillo's, Four Seasons Mexico City, Bank of America 2017 Chicago Marathon, Flowers for Dreams and more.
+						</div>
+						<div class="content2_subtitle2">
+							Prior to starting C1, I worked on comms teams for Walgreens, DePaul University, MLB's Chicago White Sox and iHeart Media.
+						</div>
+						<div class="content2_subtitle3">
+							Being curious about the industry and how people successfully navigate the digital revolution led me to create #theRevolutionaries, an interview series tackling the topic, distributed by Entrepreneur.
+						</div>
+						<div class="content2_subtitle4">
+							And last, if you haven't guessed, I love coming up with wild ideas and bringing them to life. Here's two projects I'm particularly proud of: Harry Potter Yoga and #BarackingAround (they went viral within three months of each other).
+						</div>
+						<div class="content2_button1"><button>PR Background</button></div>
+					</div>
+				</div>
+				<div class="content2_FreeWrite">
+					<div class="content2_title">Freelance Writing</div>
+					<div class="content2_subtitle">
+						<div class="content2_subtitle1">
+							In the last year I've published articles in Food & Wine, munchies, Atlas Obscura, New York Magazine, Bitch, Tasting Table and more. This has led people to ask if I've made a career switch from PR.
+						</div>
+						<div class="content2_subtitle2">
+							It's actually the other way around. I went into PR because I couldn't find a job as a writer when I graduated from DePaul with a Master's in Journalism (my undergrad degree is in communication). I tried writing back then and landed bylines with Refinery29, Chicago Sun-Times and Forbes. However, I wasn't ready to hustle the way I am today.
+						</div>
+						<div class="content2_subtitle3">
+							Through my PR work, I connected with Food52's Amanda Hesser who encouraged me to take up writing again. Today, I write a lot more. Not because I'm giving up PR, but because it's a different way to publicize the topics I care about. One feeds the other.
+						</div>
+						<div class="content2_subtitle4">
+							As a result, I'm better equipped to help clients. Being on the other side of pitches, makes understand how sharp my work needs to be, in order  to break through the noise.
+						</div>
+						<div class="content2_button2">
+							<button>Freelance Writing</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Section for watch video -->
+	<section class="watch">
+		<div class="watch_inner">
+			<div class="watch_src">
+				<div class="watch_title1">Watch</div>
+				<div class="watch_title2"><div class="link">#theRevolutionaries</div></div>
+				<div class="watch_subtitle">Subscribe to our YouTube channel to be notified when new videos are posted.</div>
+				<div class="watch_youVideo">
+					<iframe width="674px" height="379px" src="https://www.youtube.com/embed/KYzbyWIeZmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="watch_youVideo">
+					<iframe width="674px" height="379px" src="https://www.youtube.com/embed/lGIOR4BgjR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="lang">
+		<div class="lang__title">
+			<div class="kz">Тіл</div>
+			<div class="ru">Язык</div>
+			<div class="en">Language</div>
+		</div>
+		<ul class="lang__ul">
+			<li><label for="kzButton" onclick="kzBut();">KZ</label></li>
+			<li><label for="ruButton" onclick="ruBut();">RU</label></li>
+			<li><label for="ruButton" onclick="enBut();">EN</label></li>
+		</ul>
+	</section>
+	<section class="footer">
+		<div class="footer_inner">
+			<a href="index.html" class="footer_link">about</a>
+			<a href="#" class="footer_link">services</a>
+			<a href="#" class="footer_link">portfolio</a>
+			<a href="#" class="footer_link">how to pitch me</a>
+			<a href="#" class="footer_link">contact</a>
+		</div>
+	</section>
+	<div/>
+</body>
+<script src="js/aside.js"></script>
+<script src="js/lang.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/scroll.js"></script>
+</html>

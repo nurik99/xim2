@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ж.Ә.Махамбетов</title>
+	<link rel="stylesheet" href="../style/all.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Playfair+Display" rel="stylesheet">
+</head>
+<body>
+	<section class="bgImage bgImage__contact">
+		<!-- header -->
+		<section class="header header__contact">
+			<div class="header_logo header_logo__contact">
+				Ж.Ә.Махамбетов
+				<!-- Header Menu -->
+				<div class="header_menu header_menu__contact">
+					<ul>
+						<li>ӨЗІМ ТУРАЛЫ</li>
+						<li>SERVICES</li>
+						<li class="header_part header_part__contact">
+							PORTFOLIO
+							<ul class="header_partLink header_partLink__contact">
+								<li>WRITING SAMPLES</li>
+								<li>PR WORK</li>
+								<li>TESTIMONIALS</li>
+							</ul>
+						</li>
+						<li>АРХИВ</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="header_link header_link__contact">
+				<div class="header_contact header_contact__contact">
+					Байланысу
+				</div>
+				<div class="header_socIcon header_socIcon__contact">
+					<img class="header_socIcon__twitter" src="../img/twitter_black.svg" alt="twitter">
+					<img class="header_socIcon__instagram" src="../img/instagram_black.svg" alt="instagram">
+					<img class="header_socIcon__youtube" src="../img/youtube_black.svg" alt="youtube">
+				</div>
+			</div>
+			<img onclick = 'showAside()' class="mobileMenu" src="../img/menu.svg" width="40px" height="40px">
+		</section>
+	</section>
+	<!-- Mobile Menu -->
+	<section class="aside" id = 'aside'>
+		<div class = "aside-inner">
+			<ul class="mobile_part" id="mobile_part">
+				<li>About</li>
+				<li>Services</li>
+				<li onclick="mobileMenuShow()">Portfolio >></li>
+				<li>Press</li>
+				<li>Contact</li>
+			</ul>
+			<ul class="mobile_partLink" id="mobile_partLink">
+				<li onclick="mobileMenuHide()"><< Back</li>
+				<li>Writing Samples</li>
+				<li>Pr Work</li>
+				<li>Testimonials</li>
+			</ul>
+		</div>
+		<img src="../img/close.svg" alt="close" class="closeMenu closeMenu__contact" onclick="hideAside();">
+	</section>
+	<!-- Mobile Menu Backdrop -->
+	<div onclick = 'hideAside()' class = 'aside-backdrop' id = 'aside-backdrop'></div>
+	
+	<!-- content -->
+	<section class="content__contact">
+		<div class="content_inner__contact">
+			<div class="content_Src__contact">
+				<div class="content_title__contact">Байланысу</div>
+				<div class="content_subtitle__contact">Төмендегі байланыс формасы арқылы өз ойыңызбен бөлісуіңізге болады</div>
+			</div>
+			<div class="content_submit__contact">
+				<div class="content_name__contact">
+					<p>Аты - жөні *</p>
+					<div>
+						<input type="text">
+						<input type="text">
+					</div>
+					<p>
+						<span>Аты</span>
+						<span>Тегі</span>
+					</p>
+				</div>
+				<div class="content_eAdr__contact">
+					<p>Электрондық пошта *</p>
+					<input type="email">
+				</div>
+				<div class="content_sub__contact">
+					<p>Тақырыбы *</p>
+					<input type="text">
+				</div>
+				<div class="content_mas__contact">
+					<p>Хабарлама *</p>
+					<textarea></textarea>
+				</div>
+				<button>Жіберу</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section class="footer footer__contact">
+		<div class="footer_inner">
+			<a href="index.html" class="footer_link">about</a>
+			<a href="#" class="footer_link">services</a>
+			<a href="#" class="footer_link">portfolio</a>
+			<a href="#" class="footer_link">how to pitch me</a>
+			<a href="#" class="footer_link">contact</a>
+		</div>
+	</section>
+</body>
+<script src="js/aside.js"></script>
+<script src="js/lang.js"></script>
+<script src="js/preloader.js"></script>
+</html>

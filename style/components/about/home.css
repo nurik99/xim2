@@ -1,0 +1,218 @@
+body {
+	margin: 38px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/*background Image && Indecator*/
+.bgImage {
+	box-sizing: border-box;
+	width: 100%;
+	height: calc(100vh - 38px);
+	background-color: #fff;
+	/*background-image: url(../../../img/main_2.jpg);*/
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border: none;
+}
+.bgSrc{
+	width: 100%;
+	height: 80%;
+	text-align: center;
+	transform: translateY(25%);
+	vertical-align: middle;
+	color: #000;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.bgSrc_title, .bgSrc_subtitle1, .bgSrc_subtitle2 {
+	width: 100%;
+	padding-top: 10px;
+	font-size: 45px;
+	font-family: normal, sans-serif;
+}
+.bgSrc_title {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.bgArrow {
+	position: absolute;
+	left:calc(50% - 13px);
+	top: calc(100vh - 50px);
+	transition: .5s ease;
+}
+.bgArrow img {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+/*mobile home page*/
+@media screen and (max-width: 321px) {
+	body {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0px 0;
+		padding: 0 15px;
+	}
+	.bgImage {
+		width: 100%;
+		height: calc(100vh - 38px);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-webkit-box-orient: vertical;
+		-webkit-box-pack: center;
+	}
+	.bgSrc_title, .bgSrc_subtitle1, .bgSrc_subtitle2 {
+		font-size: 35px;
+	}
+	.bgSrc_title {
+		font-size: 15px;
+	}
+	.bgArrow {
+		left: calc(50% - 15px);
+		top: calc(100vh + 70px);
+	}
+	.bgArrow img {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media (min-width: 321px) and (max-width: 376px) {
+	body {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0px 0;
+		padding: 0 15px;
+	}
+	.bgImage {
+		width: 100%;
+		height: calc(100vh - 38px);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-webkit-box-orient: vertical;
+		-webkit-box-pack: center;
+	}
+	.bgSrc_title, .bgSrc_subtitle1, .bgSrc_subtitle2 {
+		font-size: 35px;
+	}
+	.bgSrc_title {
+		font-size: 15px;
+	}
+	.bgArrow {
+		left: calc(50% - 15px);
+		top: calc(100vh - 70px);
+	}
+	.bgArrow img {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	body {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0px 0;
+		padding: 0 15px;
+	}
+	.bgImage {
+		width: 100%;
+		height: calc(100vh - 38px);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-webkit-box-orient: vertical;
+		-webkit-box-pack: center;
+	}
+	.bgSrc_title, .bgSrc_subtitle1, .bgSrc_subtitle2 {
+		font-size: 35px;
+	}
+	.bgSrc_title {
+		font-size: 15px;
+	}
+	.bgArrow {
+		left: calc(50% - 15px);
+		top: calc(100vh - 70px);
+	}
+	.bgArrow img {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	body {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0px 0;
+		padding: 0 15px;
+	}
+	.bgImage {
+		width: 100%;
+		height: calc(100vh - 38px);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-webkit-box-orient: vertical;
+		-webkit-box-pack: center;
+	}
+	.bgSrc_title, .bgSrc_subtitle1, .bgSrc_subtitle2 {
+		font-size: 35px;
+	}
+	.bgSrc_title {
+		font-size: 15px;
+	}
+	.bgArrow {
+		left: calc(50% - 15px);
+		top: calc(100vh - 70px);
+	}
+	.bgArrow img {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+	body {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0px 0;
+		padding: 0 15px;
+	}
+	.bgImage {
+		width: 100%;
+		height: calc(100vh - 38px);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-webkit-box-orient: vertical;
+		-webkit-box-pack: center;
+	}
+	.bgSrc_title, .bgSrc_subtitle1, .bgSrc_subtitle2 {
+		font-size: 35px;
+	}
+	.bgSrc_title {
+		font-size: 15px;
+	}
+	.bgArrow {
+		left: calc(50% - 15px);
+		top: calc(100vh - 70px);
+	}
+	.bgArrow img {
+		width: 30px;
+		height: 30px;
+	}
+}

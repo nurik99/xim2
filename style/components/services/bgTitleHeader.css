@@ -1,0 +1,73 @@
+/*header and title on url </services/>*/
+.header__services {
+	color: #000;
+	font-size: 600;
+	font-family: 'Playfair Display', serif;
+}
+.header_contact__services {
+	border-color: #000;
+}
+.header_contact__services:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+.header_partLink__services {
+	margin: 10px 0;
+	padding: 10px 10px;
+	background-color: #000;
+	color: #fff;
+}
+.bgImage__services {
+    width: 100%;
+	background-image: none;
+	background-color: transparent;
+	color: #000;
+	height: calc(70vh - 38px);
+}
+.bgSrc_title1__services {
+	width: 100%;
+	font-weight: 50;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: normal;
+}
+.bgSrc_title2__services,.bgSrc_title3__services {
+	width: 100%;
+	font-weight: 50;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: .08em;
+    line-height: 1.2em;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgba(213,11,139,.96);
+    font-family: 'Playfair Display', serif;
+}
+@media screen and (max-width: 321px) {
+    .bgSrc_title2__services, .bgSrc_title3__services {
+        width: 100%;
+        font-size: 35px;
+    }
+}
+@media (min-width: 321px) and (max-width: 376px) {
+    .bgSrc_title2__services, .bgSrc_title3__services {
+        width: 100%;
+        font-size: 35px;
+    }
+}
+@media (min-width: 376px) and (max-width: 426px) {
+    .bgSrc_title2__services, .bgSrc_title3__services {
+        width: 100%;
+        font-size: 35px;
+    }
+}

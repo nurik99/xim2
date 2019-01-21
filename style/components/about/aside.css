@@ -1,0 +1,233 @@
+.aside{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top:0;
+	left: -100%;
+	bottom: 0;
+	background-color: #fff;
+	transition: .3s ease-out;
+}
+.aside-backdrop{
+	display: none;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+	top: 0 ;
+	bottom: 0;
+	background-color: rgba(0,0,0, .7)
+}
+.closeMenu {
+	display: none;
+}
+.mobile_part .kz, .mobile_part .ru, .mobile_part .en {
+	font-size: 23px;
+	font-family: 'Source Serif Pro', serif;
+}
+/*.aline-item {
+	font-size: 25px;
+	display: flex;
+	color: #fff;
+	margin: 5px ;
+	padding: 5px;
+}*/
+@media screen and (max-width: 321px) {
+	.closeMenu {
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+	}
+	.aside-inner {
+		font-family: 'Source Serif Pro', serif;
+		font-size: 30px;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 0em;
+    	line-height: .9em;
+    	text-transform: none;
+    	padding-left: 50px;
+    	padding-top: 50px;
+    	opacity: 0.9;
+    	overflow: hidden;
+    	transition: 1s ease-out;
+	}
+	.aside-inner ul li {
+		padding: 10px 0;
+	}
+	.aside-inner ul li:nth-child(5) {
+		padding: 50px 0;
+		color: #D71590;
+	}
+	
+	.mobile_partLink {
+		position: relative;
+		left: 100%;
+		bottom: 350px;
+	}
+	.mobile_partLink li:nth-child(1) {
+		color: #D71590;
+	}
+}
+@media (min-width: 321px) and (max-width: 376px) {
+	.closeMenu {
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+	}
+	.aside-inner {
+		font-family: 'Source Serif Pro', serif;
+		font-size: 34px;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 0em;
+    	line-height: .9em;
+    	text-transform: none;
+    	padding-left: 50px;
+    	padding-top: 50px;
+    	opacity: 0.9;
+    	overflow: hidden;
+    	transition: 1s ease-out;
+	}
+	.aside-inner ul li {
+		padding: 10px 0;
+	}
+	.aside-inner ul li:nth-child(5) {
+		padding: 50px 0;
+		color: #D71590;
+	}
+
+	.mobile_partLink {
+		position: relative;
+		left: 100%;
+		bottom: 350px;
+	}
+	.mobile_partLink li:nth-child(1) {
+		color: #D71590;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.closeMenu {
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+	}
+	.aside-inner {
+		font-family: 'Source Serif Pro', serif;
+		font-size: 34px;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 0em;
+    	line-height: .9em;
+    	text-transform: none;
+    	padding-left: 50px;
+    	padding-top: 50px;
+    	opacity: 0.9;
+    	overflow: hidden;
+    	transition: 1s ease-out;
+	}
+	.aside-inner ul li {
+		padding: 10px 0;
+	}
+	.aside-inner ul li:nth-child(5) {
+		padding: 50px 0;
+		color: #D71590;
+	}
+
+	.mobile_partLink {
+		position: relative;
+		left: 100%;
+		bottom: 350px;
+	}
+	.mobile_partLink li:nth-child(1) {
+		color: #D71590;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.closeMenu {
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+	}
+	.aside-inner {
+		font-family: 'Source Serif Pro', serif;
+		font-size: 34px;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 0em;
+    	line-height: .9em;
+    	text-transform: none;
+    	padding-left: 50px;
+    	padding-top: 50px;
+    	opacity: 0.9;
+    	overflow: hidden;
+    	transition: 1s ease-out;
+	}
+	.aside-inner ul li {
+		padding: 10px 0;
+	}
+	.aside-inner ul li:nth-child(5) {
+		padding: 50px 0;
+		color: #D71590;
+	}
+
+	.mobile_partLink {
+		position: relative;
+		left: 100%;
+		bottom: 350px;
+	}
+	.mobile_partLink li:nth-child(1) {
+		color: #D71590;
+	}
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+	.closeMenu {
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+	}
+	.aside-inner {
+		font-family: 'Source Serif Pro', serif;
+		font-size: 30px;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 0em;
+    	line-height: .9em;
+    	text-transform: none;
+    	padding-left: 50px;
+    	padding-top: 50px;
+    	opacity: 0.9;
+    	overflow: hidden;
+    	transition: 1s ease-out;
+	}
+	.aside-inner ul li {
+		padding: 10px 0;
+	}
+	.aside-inner ul li:nth-child(5) {
+		padding: 50px 0;
+		color: #D71590;
+	}
+
+	.mobile_partLink {
+		position: relative;
+		left: 100%;
+		bottom: 350px;
+	}
+	.mobile_partLink li:nth-child(1) {
+		color: #D71590;
+	}
+}

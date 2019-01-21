@@ -1,0 +1,119 @@
+.watch {
+	width: 100%;
+	box-sizing: border-box;
+}
+.watch_inner {
+	width: 100%;
+	padding: 100px 0;
+}
+.watch_src {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.watch_title1, .watch_title2 {
+	color: rgba(213,11,139,.96);
+	font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    letter-spacing: .02em;
+    line-height: 1.25em;
+    text-transform: none;
+}
+.watch_subtitle {
+	font-weight: 400;
+    font-style: normal;
+    font-size: 16.5px;
+    letter-spacing: .02em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #000;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+}
+.watch_youVideo iframe{
+	width:674px;
+	height:379px;
+	padding-bottom: 30px;
+}
+@media screen and (max-width: 321px) {
+	.watch_inner {
+		width: 100%;
+		padding: 80px 0;
+	}
+	.watch_youVideo {
+		width: 250px;
+	}
+	.watch_youVideo iframe{
+		width: 250px;
+		height: 150px;
+	}
+	.watch_title1, .watch_title2 {
+    	font-size: 25px;
+	}
+}
+@media (min-width: 321px) and (max-width: 376px) {
+	.watch_inner {
+		width: 100%;
+		padding: 80px 0;
+	}
+	.watch_youVideo {
+		width: 300px;
+	}
+	.watch_youVideo iframe{
+		width: 300px;
+		height: 200px;
+	}
+	.watch_title1, .watch_title2 {
+    	font-size: 28px;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.watch_inner {
+		width: 100%;
+		padding: 80px 0;
+	}
+	.watch_youVideo {
+		width: 350px;
+	}
+	.watch_youVideo iframe{
+		width: 350px;
+		height: 250px;
+	}
+	.watch_title1, .watch_title2 {
+    	font-size: 30px;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.watch_inner {
+		width: 100%;
+		padding: 80px 0;
+	}
+	.watch_youVideo {
+		width: 400px;
+	}
+	.watch_youVideo iframe{
+		width: 400px;
+		height: 300px;
+	}
+	.watch_title1, .watch_title2 {
+    	font-size: 32px;
+	}
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+	.watch_inner {
+		width: 100%;
+		padding: 80px 0;
+	}
+	.watch_youVideo {
+		width: 450px;
+	}
+	.watch_youVideo iframe{
+		width: 450px;
+		height: 350px;
+	}
+	.watch_title1, .watch_title2 {
+    	font-size: 35px;
+	}
+}

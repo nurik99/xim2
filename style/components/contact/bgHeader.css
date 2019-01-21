@@ -1,0 +1,26 @@
+/*header and title on url </contact/>*/
+.header__contact {
+	color: #000;
+	font-size: 600;
+	font-family: 'Playfair Display', serif;
+}
+.header_contact__contact {
+	border-color: #000;
+}
+.header_contact__contact:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+.header_partLink__contact {
+	margin: 10px 0;
+	padding: 10px 10px;
+	background-color: #000;
+	color: #fff;
+}
+.bgImage__contact {
+	background-image: none;
+	background-color: transparent;
+	color: #000;
+	height: calc(35vh - 38px);
+}

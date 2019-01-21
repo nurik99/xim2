@@ -1,0 +1,49 @@
+input[type="radio"] {
+	display: none;
+}
+label {
+	cursor: pointer;
+}
+label div {
+	width: 2px;
+	background-color: #000;
+}
+.kz {
+	display: block;
+}
+.ru {
+	display: none;
+}
+.en {
+	display: none;
+}
+.bgSrc_title div, .bgSrc_subtitle1 div, .bgSrc_subtitle2 div{
+	display: flex;
+	justify-content: center;
+}
+#ruButton:checked~section .kz, #ruButton:checked~section .en, #kzButton:checked~section .ru, #kzButton:checked~section .en, #enButton:checked~section .ru, #enButton:checked~section .kz {
+	display: none;
+}
+#ruButton:checked~section .ru, #kzButton:checked~section .kz, #enButton:checked~section .en {
+	display: flex;
+}
+@media screen and (max-width: 321px) {
+	.header_language {
+		display: none;
+	}
+}
+@media (min-width: 321px) and (max-width: 376px) {
+	.header_language {
+		display: none;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.header_language {
+		display: none;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.header_language {
+		display: none;
+	}
+}

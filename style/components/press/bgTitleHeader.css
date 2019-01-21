@@ -1,0 +1,40 @@
+/*header and title on url </press/>*/
+.header__press {
+	color: #000;
+	font-size: 600;
+	font-family: 'Playfair Display', serif;
+}
+.header_contact__press {
+	border-color: #000;
+}
+.header_contact__press:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+.header_partLink__press {
+	margin: 10px 0;
+	padding: 10px 10px;
+	background-color: #000;
+	color: #fff;
+}
+.bgImage__press {
+	background-image: none;
+	background-color: transparent;
+	color: #000;
+	height: 50vh;
+}
+.bgSrc_title__press {
+	width: 100%;
+	font-weight: 50;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgba(213,11,139,.96);
+    font-family: 'Playfair Display', serif;
+}

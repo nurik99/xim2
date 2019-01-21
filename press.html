@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project</title>
+	<link rel="stylesheet" href="../build/css/main.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Playfair+Display" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<!-- Language -->
+		<input type="radio" checked name="dva" id="kzButton"/>
+		<input type="radio" name="dva" id="ruButton"/>
+		<input type="radio" name="dva" id="enButton"/>
+		
+
+		<!-- Preloader -->
+		<section class="preloader" id="preloader">
+			<div class="loader">
+				<div class="cssload-thecube">
+					<div class="cssload-cube cssload-c1"></div>
+					<div class="cssload-cube cssload-c2"></div>
+					<div class="cssload-cube cssload-c4"></div>
+					<div class="cssload-cube cssload-c3"></div>
+				</div>
+				<div class="val">
+					<div class="kz">
+						<div class="c c1">Ж</div>
+						<div class="c c2">Ү</div>
+						<div class="c c3">К</div>
+						<div class="c c4">Т</div>
+						<div class="c c5">Е</div>
+						<div class="c c6">Л</div>
+						<div class="c c7">У</div>
+						<div class="c c8">Д</div>
+						<div class="c c9">Е</div>
+						<div class="c c10">.</div>
+					</div>
+					<div class="ru">
+						<div class="c c1">З</div>
+						<div class="c c2">А</div>
+						<div class="c c3">Г</div>
+						<div class="c c4">Р</div>
+						<div class="c c5">У</div>
+						<div class="c c6">З</div>
+						<div class="c c7">К</div>
+						<div class="c c8">А</div>
+						<div class="c c9">.</div>
+						<div class="c c10">.</div>
+					</div>
+					<div class="en">
+						<div class="c c1">L</div>
+						<div class="c c2">O</div>
+						<div class="c c3">A</div>
+						<div class="c c4">D</div>
+						<div class="c c5">I</div>
+						<div class="c c6">N</div>
+						<div class="c c7">G</div>
+						<div class="c c8">.</div>
+						<div class="c c9">.</div>
+						<div class="c c10">.</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<!-- Mobile Menu -->
+		<section class="aside" id = 'aside'>
+			<div class = "aside-inner">
+				<ul class="mobile_part" id="mobile_part">
+					<li>
+						<div class="kz">
+							ӨМІРБАЯНЫ
+						</div>
+						<div class="ru">
+							БИОГРАФИЯ
+						</div>
+						<div class="en">
+							Bio
+						</div>
+					</li>
+					<li>Services</li>
+					<li onclick="mobileMenuShow()">Portfolio >></li>
+					<li>Press</li>
+					<li>Байланысу</li>
+					<li>
+						<label for="kzButton" onclick="kzBut();">KZ|</label>
+						<label for="ruButton" onclick="ruBut();">RU|</label>
+						<label for="ruButton" onclick="enBut();">EN</label>
+					</li>
+				</ul>
+				<ul class="mobile_partLink" id="mobile_partLink">
+					<li onclick="mobileMenuHide()"><< Back</li>
+					<li>Writing Samples</li>
+					<li>Pr Work</li>
+					<li>Testimonials</li>
+				</ul>
+			</div>
+			<img src="../img/close.svg" alt="close" class="closeMenu" onclick="hideAside();">
+		</section>
+
+		<section class="bgImage bgImage__press">
+			<!-- header -->
+			<section class="header header__press">
+				<div class="header_logo header_logo__press">
+					<div class="kz">
+						Ж.Ә.Махамбетов
+					</div>
+					<div class="ru">
+						Ж.A.Махамбетов
+					</div>
+					<div class="en">
+						Zh.A.Makhambetov
+					</div>
+					<!-- Header Menu -->
+					<div class="header_menu header_menu__press">
+						<ul>
+							<li>
+								<div class="kz">
+									ӨМІРБАЯНЫ
+								</div>
+								<div class="ru">
+									БИОГРАФИЯ
+								</div>
+								<div class="en">
+									BIOGRAPHY
+								</div>
+							</li>
+							<li>SERVICES</li>
+							<li class="header_part">
+								PORTFOLIO
+								<ul class="header_partLink">
+									<li>WRITING SAMPLES</li>
+									<li>PR WORK</li>
+									<li>TESTIMONIALS</li>
+								</ul>
+							</li>
+							<li>
+								<a href="file:///C:/Users/Lenovo/Desktop/mag/press/index.html">АРХИВ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="header_language">
+					<label for="kzButton" onclick="kzBut();">KZ        |</label>
+					<label for="ruButton" onclick="ruBut();">RU        |</label>
+					<label for="ruButton" onclick="enBut();">EN</label>
+				</div>
+
+				<div class="header_link header_link__press">
+					<div class="header_contact header_contact__press">
+						<div class="kz">Байланысу</div>
+						<div class="ru">Кантакт</div>
+						<div class="en">Contact</div>
+					</div>
+					<div class="header_socIcon header_socIcon__press">
+						<img class="header_socIcon__twitter" src="../img/twitter_black.svg" alt="twitter">
+						<img class="header_socIcon__instagram" src="../img/instagram_black.svg" alt="instagram">
+						<img class="header_socIcon__youtube" src="../img/youtube_black.svg" alt="youtube">
+					</div>
+				</div>
+				<img onclick = 'showAside()' class="mobileMenu" src="../img/menu.svg" width="40px" height="40px">
+			</section>
+
+			<!-- backgraund Source -->
+			<section class="bgSrc bgSrc__press">
+				<div class="bgSrc_title bgSrc_title__press">Press</div>
+			</section>
+		</section>
+		<!-- Mobile Menu -->
+		<section class="aside" id = 'aside'>
+			<div class = "aside-inner">
+				<ul class="mobile_part" id="mobile_part">
+					<li>About</li>
+					<li>Services</li>
+					<li onclick="mobileMenuShow()">Portfolio >></li>
+					<li>Press</li>
+					<li>Contact</li>
+				</ul>
+				<ul class="mobile_partLink" id="mobile_partLink">
+					<li onclick="mobileMenuHide()"><< Back</li>
+					<li>Writing Samples</li>
+					<li>Pr Work</li>
+					<li>Testimonials</li>
+				</ul>
+			</div>
+			<img src="../img/close.svg" alt="close" class="closeMenu closeMenu__press" onclick="hideAside();">
+		</section>
+		<!-- Mobile Menu Backdrop -->
+		<div onclick = 'hideAside()' class = 'aside-backdrop' id = 'aside-backdrop'></div>
+
+		<!-- content -->
+		<section class="content__press">
+			<div class="content_inner__press">
+				<div class="content_wrap__press">
+					<img src="../img/barackmarathon.jpg" alt="barackmarathon">
+					<div class="content_Src__press">
+						<div class="content_title__press">VIRAL: #BARACKINGAROUND</div>
+						<div class="content_subtitle__press">
+							In 2012, I wrote "The Gift of a Funny Name Like Obama," an op-ed published in the Chicago Sun-Times on the Sunday of Barack Obama's second inauguration. It's what led to me #BarackingAround and local, national and international press in English and Spanish markets.
+						</div>
+						<button class="button__press">READ</button>
+					</div>
+				</div>
+				<div class="content_wrap__press">
+					<img src="../img/yoga-isabel.jpg" alt="barackmarathon">
+					<div class="content_Src__press">
+						<div class="content_title__press">
+							HOY: EL ARTE DE COMBINAR PUBLICIDAD Y REDES SOCIALES
+						</div>
+						<div class="content_subtitle__press">
+							Hoy, Chicago Tribune's Spanish language newspaper, profile on my company C1 Revolution.
+						</div>
+						<button class="button__press">READ</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section class="footer footer__press">
+			<div class="footer_inner">
+				<a href="index.html" class="footer_link">about</a>
+				<a href="#" class="footer_link">services</a>
+				<a href="#" class="footer_link">portfolio</a>
+				<a href="#" class="footer_link">how to pitch me</a>
+				<a href="#" class="footer_link">contact</a>
+			</div>
+		</section>
+	</div>
+</body>
+<script src="../js/pages.min.js"></script>
+</html>
