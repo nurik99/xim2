@@ -3,17 +3,17 @@ body {
 	margin: 0;
 }
 .lang {
-	width: 300px;
+	width: 200px;
 	background-color: rgba(0, 0, 0, .5);
 	color: #fff;
 	position: fixed;
 	bottom: 0px;
-	right: -190px;
+	right: -160px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	box-sizing: border-box;
-	transition: .7s linear;
+	transition: .5s ease;
 }
 .lang:hover {
 	background-color: rgba(0, 0, 0, .8);
