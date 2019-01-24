@@ -252,13 +252,10 @@
 	animation-delay: 1.8s;
 }
 @keyframes valAn {
-	0% {
+	from {
 		font-size: 0px;
 	}
-	50% {
-		font-size: 15px;
-	}
-	100% {
+	to {
 		font-size: 30px;
 	}
 }
