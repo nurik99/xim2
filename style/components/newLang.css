@@ -19,6 +19,9 @@ body {
 	background-color: rgba(0, 0, 0, .8);
 	right: 0px;
 }
+.lang:hover + .lang__title {
+	display: none;
+}
 .lang__title {
 	cursor: default;
 }
