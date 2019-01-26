@@ -7,8 +7,8 @@ function wpguruLink() {
     var authorLink = "<br /><br />" + istS + ' ' + "<a href='"+myLink+"'>"+myLink+"</a><br />" + copyR;
     var copytext = choose + authorLink;
     var addDiv = document.createElement('div');
-    addDiv.style.position='absolute';
-    addDiv.style.left='-99999px';
+    // addDiv.style.position='absolute';
+    // addDiv.style.left='-99999px';
     body_element.appendChild(addDiv);
     addDiv.innerHTML = copytext;
     choose.selectAllChildren(addDiv);
