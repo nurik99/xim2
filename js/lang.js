@@ -30,7 +30,6 @@ if (!readCookie("lang")) {
     writeCookie("lang", "kz", 3);
 }
 var r = readCookie("lang");
-console.log(r);
 
 var ruButton = document.getElementById("#ruButton");
 var kzButton = document.getElementById("#kzButton");
@@ -63,3 +62,10 @@ function a() {
     }
 }
 a();
+
+if (navigator.cookieEnabled) {
+    alert('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+}
+else {
+    alert('У вас cookie не включены для этого сайта. Cookie используется для поддержки языка');
+}
