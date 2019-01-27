@@ -6,3 +6,9 @@ window.onload = function () {
 		}
 	}, 0)
 }
+setTimeout(function() {
+	var preloader = document.getElementById('preloader');
+	if (!preloader.classList.contains('done')) {
+		preloader.classList.add('done');
+	}
+}, 3000)

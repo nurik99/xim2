@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 	width: 100%;
 	height: calc(100vh - 38px);
 	background-color: #fff;
-	/*background-image: url(../../../img/main_2.jpg);*/
+	/*background-image: url(../../../img/Abstract-Envelope.svg);*/
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
