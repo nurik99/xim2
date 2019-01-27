@@ -65,7 +65,7 @@ a();
 
 setTimeout(function() {
     if (navigator.cookieEnabled) {
-        if (r == "true") {
+        if (readCookie("cookie") == "true") {
             console.log('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
         }
         else {
