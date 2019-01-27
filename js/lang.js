@@ -63,9 +63,12 @@ function a() {
 }
 a();
 
-if (navigator.cookieEnabled) {
-    alert('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
-}
-else {
-    alert('У вас cookie не включены для этого сайта. Cookie используется для поддержки языка');
-}
+setTimeout(function() {
+    if (navigator.cookieEnabled) {
+        alert('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+    }
+    else {
+        alert('У вас cookie не включены для этого сайта. Cookie используется для поддержки языка');
+    }
+}, 5000)
+
