@@ -65,7 +65,13 @@ a();
 
 setTimeout(function() {
     if (navigator.cookieEnabled) {
-        alert('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+        if (r == "true") {
+            console.log('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+        }
+        else {
+           alert('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+            writeCookie("cookie", "true", 60); 
+        }
     }
     else {
         alert('У вас cookie не включены для этого сайта. Cookie используется для поддержки языка');
