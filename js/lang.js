@@ -64,17 +64,26 @@ function a() {
 a();
 
 setTimeout(function() {
+    var notif = document.getElementById('notif');
+    var notif_not = document.getElementById('notif_not');
+    var notif_done = document.getElementById('notif_done');
     if (navigator.cookieEnabled) {
         if (readCookie("cookie") == "true") {
-            console.log('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+            notif.style.bottom = "0px";
+            notif_done.style.display = "block";
         }
         else {
-           alert('У вас cookie включены для этого сайта. Cookie используется для поддержки языка');
+            notif.style.bottom = "0px";
+            notif_done.style.display = "block";
             writeCookie("cookie", "true", 60); 
         }
     }
     else {
-        alert('У вас cookie не включены для этого сайта. Cookie используется для поддержки языка');
+        notif.style.bottom = "0px";
+        notif_not.style.display = "block";
     }
 }, 5000)
-
+function hideNotif() {
+    var notif = document.getElementById('notif');
+    notif.style.bottom = "-80px";
+}
